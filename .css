@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle, #020111, #000000);
+    overflow: hidden;
+    height: 100vh;
+    cursor: pointer;
+    font-family: "Times New Roman", Georgia, Times, serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.particle {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.sparkle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+    transform: scale(0);
+    opacity: 0;
+}
